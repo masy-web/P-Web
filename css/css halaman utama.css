@@ -1,0 +1,68 @@
+body {
+    background-image: url('../images/cover halaman utama.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+        float:right;
+}
+
+nav ul li:hover{
+    background:#d68d9a;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    background:#222;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+.daftar {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.gambar {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
